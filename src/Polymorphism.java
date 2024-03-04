@@ -30,9 +30,7 @@ public class Polymorphism {
             ular.bergerak();
             ular.bersuara();
             
-             if (KesalahanHewan) {
-                throw new KesalahanHewan("Kesalahan pada hewan");
-            }
+            throw new KesalahanHewan("Kesalahan pada hewan");
             
         } catch (KesalahanHewan e) {
             System.out.println("Terjadi kesalahan pada hewan : " + e);
