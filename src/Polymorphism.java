@@ -33,7 +33,7 @@ public class Polymorphism {
             throw new KesalahanHewan("Kesalahan pada hewan");
             
         } catch (KesalahanHewan e) {
-            System.out.println("Terjadi kesalahan pada hewan : " + e);
+            System.out.println(e);
         } catch ( Exception e ) {
             System.out.println("Terjadi kesalahan : " + e);
         }
